@@ -80,7 +80,7 @@ jquery代码自动补全，比如你要写一段ajax你需要输入jqAjax然后�
 （1）command+ shift + p打开配置文件，
 输入 Project Manager: Edit Projects
 
-```js
+```
 [
 	{
 		"name": "nuxtest",
@@ -115,4 +115,3 @@ vue文件格式化，有三种用法
 
 
 ## markdown的使用
-
