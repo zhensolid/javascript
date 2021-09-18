@@ -70,8 +70,6 @@ jquery代码自动补全，比如你要写一段ajax你需要输入jqAjax然后�
 
 ## Path Autocomplete 路径补全工具
 
-
-
 ## Project Manager 项目管理工具
 
 这两种方式对于需要经常切换项目时，比较耗时
@@ -80,21 +78,21 @@ jquery代码自动补全，比如你要写一段ajax你需要输入jqAjax然后�
 （1）command+ shift + p打开配置文件，
 输入 Project Manager: Edit Projects
 
-```
-[
-	{
-		"name": "nuxtest",
-		"rootPath": "e:\\nuxtest",
-		"paths": [],
-		"group": ""
-	},
-	{
-		"name": "vuetest",
-		"rootPath": "e:\\vuetest",
-		"paths": [],
-		"group": ""
-	}
-]
+```java
+
+{
+name": "nuxtest",
+rootPath": "e:\\nuxtest",
+paths": [],
+group": ""
+},
+{
+"name": "vuetest",
+"rootPath": "e:\\vuetest",
+"paths": [],
+"group": ""
+}
+
 
 ```
 
@@ -112,6 +110,5 @@ vue文件格式化，有三种用法
 1、快捷键ctrl+shift+f ;
 2、在文件中右键选择Beautify Vue ;
 3、按f1,搜索 Beautify Vue然后点击.
-
 
 ## markdown的使用
