@@ -11,29 +11,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
-
-        <style type="text/css">
-        *{
-            font-size: 18px;
-            line-height: 30px;
-            text-align: center;
-        }
-        </style>
-
-        <!-- ! 使用<style type="text/css">
-        ! * {
-        !     font-size: larger;
-        !     line-height: 30px;
-        ! }
-        ! </style> 
-        todo 定义所以字体的大小和行高
-        -->
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>科比的生涯</h1>
-        <script src="/第二章/lesson5-1.js"></script>
+        <h2>洛杉矶市当前气温</h2>
+        <script type="text/javascript">
+            var degreeF=68;
+            var degreeC=0;
+            degreeC=5/9*(degreeF-32);
+            document.write("华氏度:"+degreeF+"&deg;F");
+            document.write("<br>摄氏度:"+degreeC+"&deg;C");
+        //    &deg;这个是摄氏度的符号
+
+        </script>
     </body>
 </html>
